@@ -26,16 +26,19 @@ logs/
 
 ## Setup
 1. **Clone the repository**
+
 2. **Install dependencies** (preferably in a virtual environment):
    ```sh
    pip install -r requirements.txt
    ```
    (Ensure you have `streamlit`, `faiss-cpu`, `sentence-transformers`, `python-dotenv`, and `mistralai`.)
+   
 3. **Set up environment variables**:
    - Create a `.env` file in the root directory with your Mistral API key:
      ```env
      MISTRAL_API_KEY=your_api_key_here
      ```
+     
 4. **Run the app**:
    ```sh
    streamlit run scripts/interface.py
