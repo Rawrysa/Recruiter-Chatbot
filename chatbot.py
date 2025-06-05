@@ -16,7 +16,7 @@ class Chatbot:
         try:
             self.client = Mistral(api_key=self.api_key)
 
-            with open("docs/profile.txt", "r") as f:
+            with open("docs/professional_background_summary.txt", "r") as f:
                 profile_data = f.read()
 
             self.search_engine = SearchEngine()
