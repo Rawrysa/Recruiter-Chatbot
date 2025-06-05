@@ -57,7 +57,7 @@ if prompt:
         st.download_button(
             label="📄 Download CV",
             data=cv_data,
-            file_name="Galaletsang_Modimola_Resume.pdf",
+            file_name="your_resume_or_cv.pdf",
             mime="application/pdf"
         )
 
